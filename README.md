@@ -55,7 +55,7 @@ tracing = SanicTracing(tracer=opentracing_tracer, ...)
 
 ### Trace All Requests
 
-Setting `trace_all_requests` to `Ture` when making the initialization. Normally, you maybe want to it to be configurable by environment variable.
+Setting `trace_all_requests` to `True` when making the initialization. Normally, you maybe want to it to be configurable by environment variable.
 
 ```shell
 from sanic_opentracing import SanicTracing
